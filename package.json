@@ -1,0 +1,22 @@
+{
+  "name": "bootstrap-form",
+  "version": "1.0.0",
+  "description": "practice form",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mikeyhavoc/bootstrap-form.git"
+  },
+  "keywords": [
+    "practice"
+  ],
+  "author": "Michael Williams",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mikeyhavoc/bootstrap-form/issues"
+  },
+  "homepage": "https://github.com/mikeyhavoc/bootstrap-form#readme"
+}
