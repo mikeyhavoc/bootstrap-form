@@ -1,7 +1,7 @@
 {
-  "name": "bootstrap-form",
+  "name": "social-site",
   "version": "1.0.0",
-  "description": "practice form",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,13 +10,13 @@
     "type": "git",
     "url": "git+https://github.com/mikeyhavoc/bootstrap-form.git"
   },
-  "keywords": [
-    "practice"
-  ],
-  "author": "Michael Williams",
+  "author": "michael williams",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/mikeyhavoc/bootstrap-form/issues"
   },
-  "homepage": "https://github.com/mikeyhavoc/bootstrap-form#readme"
+  "homepage": "https://github.com/mikeyhavoc/bootstrap-form#readme",
+  "devDependencies": {
+    "node-sass": "^4.7.2"
+  }
 }
