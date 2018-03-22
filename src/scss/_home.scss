@@ -1,0 +1,51 @@
+
+
+
+    .info-section {
+        width: 35%;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+
+        .logo {
+            background: white;
+            height: 100px;
+            width: 200px;
+        }
+    }
+    .info-box{
+        position: absolute;
+        bottom: 60px;
+        padding: 54px;
+    }
+
+.content-area {
+    margin-left: 35%;
+    width: 65%;
+    background: white;
+    height: 100%;
+    padding: 0 20%;
+    .profile-section {
+        .profile {
+
+        }
+    }
+}
+body,
+html {
+    font-size: 18px;
+    background: $skyblue-color;
+    height: 100%;
+    font-family: 'Muli', sans-serif;
+}
+h4 {
+    font-size: 1.2rem;
+    color: $skywhite-color;
+    margin: 0.7rem 0;
+}
+p {
+    font-size: 1.1rem;
+    font-weight: 300;
+    margin: 0.2 0 0 1.6rem;
+}

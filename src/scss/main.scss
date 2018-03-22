@@ -1,5 +1,16 @@
+@import "reset";
 @import "variables";
+@import "home";
+@import "profile";
 
 body {
     background: $skyblue-color;
+}
+
+img {
+    width: 100%;
+}
+
+* {
+    box-sizing: border-box;
 }
