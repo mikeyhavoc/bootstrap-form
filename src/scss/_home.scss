@@ -1,20 +1,21 @@
 
 
 .home {
-
+    .logo {
+        background: white;
+        height: 100px;
+        width: 200px;
+    }
 
         .info-section {
+            padding: 54px;
             width: 35%;
             position: absolute;
             top: 0;
             bottom: 0;
             left: 0;
 
-            .logo {
-                background: white;
-                height: 100px;
-                width: 200px;
-            }
+            
         }
         .info-box{
             position: absolute;
