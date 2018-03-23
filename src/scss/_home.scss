@@ -1,36 +1,40 @@
 
 
+.home {
 
-    .info-section {
-        width: 35%;
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        left: 0;
 
-        .logo {
-            background: white;
-            height: 100px;
-            width: 200px;
+        .info-section {
+            width: 35%;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+
+            .logo {
+                background: white;
+                height: 100px;
+                width: 200px;
+            }
         }
-    }
-    .info-box{
-        position: absolute;
-        bottom: 60px;
-        padding: 54px;
-    }
-
-.content-area {
-    margin-left: 35%;
-    width: 65%;
-    background: white;
-    height: 100%;
-    padding: 0 20%;
-    .profile-section {
-        .profile {
-
+        .info-box{
+            position: absolute;
+            bottom: 60px;
+            padding: 54px;
         }
-    }
+
+    .content-area {
+        margin-left: 35%;
+        width: 65%;
+        background: white;
+        height: 100%;
+        padding: 0 20%;
+        .profile-section {
+            .profile {
+
+            }
+        }
+    }      
+    
 }
 body,
 html {
