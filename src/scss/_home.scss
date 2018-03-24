@@ -2,7 +2,7 @@
 
 .home {
     .logo {
-        background: white;
+        background: $skywhite-color;
         height: 100px;
         width: 200px;
     }
@@ -15,6 +15,10 @@
             bottom: 0;
             left: 0;
 
+            p {
+                color: $skywhite-color;
+            }
+
             
         }
         .info-box{
@@ -26,12 +30,13 @@
     .content-area {
         margin-left: 35%;
         width: 65%;
-        background: white;
+        background: $skywhite-color;
         height: 100%;
         padding: 0 20%;
+        
         .profile-section {
             .profile {
-
+               
             }
         }
     }      
