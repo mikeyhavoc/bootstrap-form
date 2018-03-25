@@ -15,7 +15,7 @@
         .info-section {
             padding: 54px;
             width: 35%;
-            position: absolute;
+            //position: absolute;
             top: 0;
             bottom: 0;
             left: 0;
@@ -27,7 +27,7 @@
             
         }
         .info-box{
-            position: absolute;
+           // position: absolute;
             bottom: 60px;
             padding: 54px;
         }
@@ -40,8 +40,10 @@
         padding: 0 20%;
         
         .profile-section {
+            
             .profile {
-               
+               background: $skyblue-color;
+               height: 100%;
             }
         }
     }      
@@ -63,4 +65,7 @@ p {
     font-size: 1.1rem;
     font-weight: 300;
     margin: 0.2 0 0 1.6rem;
+}
+.navbar {
+    justify-content: flex-end; // override of bootstrap to put navbar button on right side.
 }
