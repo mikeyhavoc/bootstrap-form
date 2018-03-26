@@ -1,71 +1,72 @@
+.instagram-icon {
+    margin: 0 0.75em;
+}
+// .home {
+//     .logo {
+//         background: $skywhite-color;
+//         height: 100px;
+//         width: 200px;
+//     }
 
+//     .img-container {
+//         width: 25%;
+//         display: inline-block;
+//     }
 
-.home {
-    .logo {
-        background: $skywhite-color;
-        height: 100px;
-        width: 200px;
-    }
+//         .info-section {
+//             padding: 54px;
+//             width: 35%;
+//             //position: absolute;
+//             top: 0;
+//             bottom: 0;
+//             left: 0;
 
-    .img-container {
-        width: 25%;
-        display: inline-block;
-    }
-
-        .info-section {
-            padding: 54px;
-            width: 35%;
-            //position: absolute;
-            top: 0;
-            bottom: 0;
-            left: 0;
-
-            p {
-                color: $skywhite-color;
-            }
+//             p {
+//                 color: $skywhite-color;
+//             }
 
             
-        }
-        .info-box{
-           // position: absolute;
-            bottom: 60px;
-            padding: 54px;
-        }
+//         }
+//         .info-box{
+//            // position: absolute;
+//             bottom: 60px;
+//             padding: 54px;
+//         }
 
-    .content-area {
-        margin-left: 35%;
-        width: 65%;
-        background: $skywhite-color;
-        height: 100%;
-        padding: 0 20%;
+//     .content-area {
+//         margin-left: 35%;
+//         width: 65%;
+//         background: $skywhite-color;
+//         height: 100%;
+//         padding: 0 20%;
         
-        .profile-section {
+//         .profile-section {
             
-            .profile {
-               background: $skyblue-color;
-               height: 100%;
-            }
-        }
-    }      
+//             .profile {
+//                background: $skyblue-color;
+//                height: 100%;
+//             }
+//         }
+//     }      
     
-}
-body,
-html {
-    font-size: 18px;
-    background: $skyblue-color;
-    height: 100%;
-    font-family: 'Muli', sans-serif;
-}
-h4 {
-    font-size: 1.2rem;
-    color: $skywhite-color;
-    margin: 0.7rem 0;
-}
-p {
-    font-size: 1.1rem;
-    font-weight: 300;
-    margin: 0.2 0 0 1.6rem;
-}
-.navbar {
-    justify-content: flex-end; // override of bootstrap to put navbar button on right side.
-}
+// }
+// body,
+// html {
+//     font-size: 18px;
+//     background: $skyblue-color;
+//     height: 100%;
+//     font-family: 'Muli', sans-serif;
+// }
+// h4 {
+//     font-size: 1.2rem;
+//     color: $skywhite-color;
+//     margin: 0.7rem 0;
+// }
+// p {
+//     font-size: 1.1rem;
+//     font-weight: 300;
+//     margin: 0.2 0 0 1.6rem;
+// }
+// .navbar {
+//     justify-content: flex-end; // override of bootstrap to put navbar button on right side.
+// }
