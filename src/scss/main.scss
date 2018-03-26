@@ -1,17 +1,19 @@
 @import "bootstrap/bootstrap";
+@import "fontawesome-all";
 @import "variables";
 @import "home";
 @import "profile";
 
 
 body {
-    background: $skyblue-color;
+    background: $pitchred-color;
 }
 
 img {
     width: 100%;
 }
 
-* {
-    box-sizing: border-box;
+
+.navbar {
+    
 }

@@ -1,81 +1,21 @@
+%margin-white {
+    margin: 0 1em;
+}
+
 .icon-section {
-    margin-bottom: 0.5em;
-    .instagram-icon {
-        margin: 0 0.75em;
-    }
+    background: white;
+    margin: 1em;
+    padding: inherit;
+    .twitter-icon { @extend %margin-white; }
+    .instagram-icon { @extend %margin-white; }
+    .github-icon { @extend %margin-white; }
+    
 }
 .profile-section {
     margin-top: 0.75em;
+    background: $skywhite-color;
+    margin-bottom: 2em;
 }
 .profile-data {
-    margin: 0.75em 0.75em;
+  
 }
-// .home {
-//     .logo {
-//         background: $skywhite-color;
-//         height: 100px;
-//         width: 200px;
-//     }
-
-//     .img-container {
-//         width: 25%;
-//         display: inline-block;
-//     }
-
-//         .info-section {
-//             padding: 54px;
-//             width: 35%;
-//             //position: absolute;
-//             top: 0;
-//             bottom: 0;
-//             left: 0;
-
-//             p {
-//                 color: $skywhite-color;
-//             }
-
-            
-//         }
-//         .info-box{
-//            // position: absolute;
-//             bottom: 60px;
-//             padding: 54px;
-//         }
-
-//     .content-area {
-//         margin-left: 35%;
-//         width: 65%;
-//         background: $skywhite-color;
-//         height: 100%;
-//         padding: 0 20%;
-        
-//         .profile-section {
-            
-//             .profile {
-//                background: $skyblue-color;
-//                height: 100%;
-//             }
-//         }
-//     }      
-    
-// }
-// body,
-// html {
-//     font-size: 18px;
-//     background: $skyblue-color;
-//     height: 100%;
-//     font-family: 'Muli', sans-serif;
-// }
-// h4 {
-//     font-size: 1.2rem;
-//     color: $skywhite-color;
-//     margin: 0.7rem 0;
-// }
-// p {
-//     font-size: 1.1rem;
-//     font-weight: 300;
-//     margin: 0.2 0 0 1.6rem;
-// }
-// .navbar {
-//     justify-content: flex-end; // override of bootstrap to put navbar button on right side.
-// }
