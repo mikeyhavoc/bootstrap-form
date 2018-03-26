@@ -17,6 +17,17 @@
     margin-bottom: 2em;
 }
 
+.profile-section {
+    border-radius: 0.75em;
+    padding: 0 0.5em;
+}
+
 @media (min-width:39.375em) { // 630 px
-  
+  .content-area {
+      background: white;
+      border-radius: 0.5em;
+      margin-top: 1em;
+      padding: 0.75em;
+      
+  }
 }
