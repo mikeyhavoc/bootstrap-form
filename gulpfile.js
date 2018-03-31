@@ -14,7 +14,10 @@ dest = {
     'maps' : "./maps/",
     'broswerSysnc' : "./public",
     'miniSrc' : "./src/css-pre/**/*.css",
-    'miniDest' : "./public/css/"
+    'htmlMin' : "./src/**/*.html",
+
+    'miniDest' : "./docs/css/",
+    'htmlDest' : "./docs"
 
 }
 
@@ -44,6 +47,12 @@ gulp.task('autoprefixer', function () {
             .pipe(gulp.dest(dest.miniDest));
         });
 
+        gulp.task('minifyHtml', function() {
+            return gulp.src(dest.htmlMin)
+            .pipe(htmlmin({collapseWhitespace: true}))
+            .pipe(gulp.dest(dest.htmlDest));
+        });    
+
 // Static server
 gulp.task('browser-sync', function() {
     browserSync.init({
@@ -53,4 +62,4 @@ gulp.task('browser-sync', function() {
     });
 });
 
-gulp.task('default', ['sass', 'autoprefixer', 'minifyCss']);
+gulp.task('default', ['sass', 'autoprefixer', 'minifyCss', 'minifyHtml']);
