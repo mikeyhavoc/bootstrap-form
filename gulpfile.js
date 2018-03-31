@@ -4,6 +4,7 @@ const postcss = require('gulp-postcss');
 const sourcemaps = require('gulp-sourcemaps');
 const autoprefixer = require('autoprefixer');
 const cleanCSS = require('gulp-clean-css');
+const htmlmin = require('gulp-htmlmin');
 const browserSync = require('browser-sync').create();
 
 dest = {
