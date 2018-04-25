@@ -17,8 +17,8 @@ dest = {
     'miniSrc' : "./src/css-pre/**/*.css",
     'htmlMin' : "./src/**/*.html",
 
-    'miniDest' : "./docs/css/",
-    'htmlDest' : "./docs"
+    'miniDest' : "./docs/css/",// final css dest
+    'htmlDest' : "./docs"     // final dest for html 
 
 }
 
